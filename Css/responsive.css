@@ -1,0 +1,41 @@
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 22px 0px;
+  }
+  .home h2 {
+    font-size: 2rem;
+    color: #000000;
+  }
+
+  .home p {
+    font-size: 1rem;
+    color: #000000;
+    margin-top: 12px;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+
+  .card p {
+    margin-top: 12px;
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #portfolio h3 {
+    font-size: 2rem;
+  }
+}

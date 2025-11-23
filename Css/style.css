@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body section */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Navbar section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 26px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav a {
+  margin: 10px 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(0, 55, 128);
+}
+
+/* Burger icon style */
+.burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.burger span {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  display: block;
+  transition: 0.3s;
+}
+
+/* Responsive rules */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 26px;
+    background-color: #fff;
+    flex-direction: column;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 6px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .burger {
+    display: flex;
+  }
+}
+
+/* Home section */
+.home {
+  text-align: center;
+  padding: 100px 20px;
+  /* background: url("https://media.licdn.com/dms/image/v2/C4D12AQExjQ45SewdHg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1636384212612?e=2147483647&v=beta&t=geyz7RasXkUczlqcuLXzokjIn8DLkJSUi_j1O9S41LU"); */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  color: rgb(0, 0, 0);
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 450px;
+  width: 100%;
+  background: url("https://physicsroom.org.nz/media/cache/04/10/0410ed91fcfcb712d917d039282cd90c.jpg")
+    no-repeat center center/cover;
+  z-index: -1;
+}
+
+.home a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.home h2 {
+  font-size: 3rem;
+  color: #000000;
+}
+
+.home p {
+  font-size: 1.3rem;
+  color: #000000;
+  margin-top: 12px;
+}
+
+/* About section */
+.about {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about h3 {
+  font-size: 1.4rem;
+}
+
+.about-para {
+  font-size: 18px;
+}
+
+/* Services section */
+
+#Services {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+#services h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.services-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.boxes {
+  flex: 1 1 250px;
+  background: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boxes h4 {
+  font-size: 26px;
+}
+
+/* portfolio section */
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#portfolio h4 {
+  font-size: 2rem;
+  margin-top: 70px;
+  margin-bottom: 12px;
+}
+
+#portfolio h3 {
+  font-size: 3rem;
+}
+
+#contact-container h3 {
+  font-size: 2.2rem;
+}
+
+#contact {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-box {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-box i {
+  font-size: 50px;
+}
+
+.contact-box h4 {
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+.contact-box p {
+  margin-top: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #5e5e5e;
+  margin-top: 40px;
+}
