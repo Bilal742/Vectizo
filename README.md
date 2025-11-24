@@ -9,10 +9,6 @@ Vectizo is a professional graphic design agency website built using **HTML, CSS,
 - Portfolio showcase  
 - Contact form  
 
-## Screenshots
-![Home Page](screenshot-home.png)
-![Portfolio](screenshot-portfolio.png)
-
 ## Technologies Used
 - HTML5
 - CSS3
