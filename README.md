@@ -1,5 +1,7 @@
 # Vectizo - Graphic Design Agency
 
+---
+
 ## Description
 Vectizo is a professional graphic design agency website built using **HTML, CSS, and JavaScript**. It features responsive design, modern UI, and interactive elements.
 
