@@ -28,7 +28,7 @@ It delivers a clean UI, smooth animations, interactive elements, and a professio
 
 ## 🚀 Live Demo
 
-🔗 **Live Website:** [https://imuhammadbilal.vercel.app/](https://vectizo.vercel.app/)
+🔗 **Live Website:** [https://vectizo.vercel.app/](https://vectizo.vercel.app/)
 
 ---
 
