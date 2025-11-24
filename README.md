@@ -22,11 +22,32 @@ It delivers a clean UI, smooth animations, interactive elements, and a professio
 - **HTML5**  
 - **CSS3**  
 - **JavaScript**  
-- **Google Fonts & Icons**  
+- **Google Fonts & Icons**
+
+---
+
+## 🚀 Live Demo
+
+🔗 **Live Website:** [https://imuhammadbilal.vercel.app/](https://vectizo.vercel.app/)
 
 ---
 
 ### ▶️ How to Run  
-1. Clone this repository  
+
+1. Clone this repository
+
    ```bash
    git clone https://github.com/your-username/Vectizo.git
+   
+---
+
+## 📬 Contact
+
+👨‍💻 **Muhammad Bilal**  
+📧 [bilalusman1291@gmail.com](mailto:bilalusman1291@gmail.com)  
+🐙 [GitHub Profile](https://github.com/Bilal742)
+
+---
+
+⭐ **If you like this project, don’t forget to give it a star on GitHub!**
+
