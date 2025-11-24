@@ -1,25 +1,32 @@
-# Vectizo - Graphic Design Agency
+<h3 align="center">✨ Vectizo - Graphic Design Agency Website ✨</h3>
 
 ---
 
-## Description
-Vectizo is a professional graphic design agency website built using **HTML, CSS, and JavaScript**. It features responsive design, modern UI, and interactive elements.
+### 📌 Description  
+Vectizo is a modern and fully responsive **Graphic Design Agency Website** built using **HTML, CSS, and JavaScript**.  
+It delivers a clean UI, smooth animations, interactive elements, and a professional portfolio showcase suitable for agencies, designers, and creative studios.
 
-## Features
-- Responsive layout for all devices  
-- Smooth navigation & animations  
-- Portfolio showcase  
-- Contact form  
+---
 
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript
-- Fonts & Icons
+### 🚀 Features  
+- 📱 Fully Responsive Layout  
+- 🎨 Modern & Clean UI / UX  
+- 🖼️ Portfolio Gallery  
+- 🔗 Smooth Navigation  
+- ✨ Animations & Hover Effects  
+- 📬 Contact Form  
 
-## How to Run
-1. Clone the repo: `git clone https://github.com/your-username/Vectizo.git`  
-2. Open `index.html` in your browser  
+---
 
-## Author
-Muhammad Bilal
+### 🛠️ Technologies Used  
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
+- **Google Fonts & Icons**  
+
+---
+
+### ▶️ How to Run  
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/your-username/Vectizo.git
